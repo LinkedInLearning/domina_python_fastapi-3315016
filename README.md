@@ -10,19 +10,34 @@ Sumérgete en el mundo de FastAPI, el framework web esencial para desarrollar AP
 
 ## Instrucciones
 
-Este repositorio tiene ramas (branches) para cada uno de los vídeos del curso. Puedes usar el menú emergente de la rama en GitHub para cambiar a una rama específica y echar un vistazo al curso en esa etapa, o puedes añadir `/tree/nombre_de_la_rama` a la URL para ir a la rama a la que quieres acceder.
+Este repositorio tiene directorios para cada uno de los capítulos del curso.
 
-## Ramas
+## Directorios
 
-Las ramas están estructuradas para corresponder a los vídeos del curso. La convención de nomenclatura es Capítulo#_Vídeo#. Por ejemplo, la rama denominada `02_03` corresponde al segundo capítulo y al tercer vídeo de ese capítulo. Algunas ramas tendrán un estado inicial y otro final. Están marcadas con las letras i («inicio») y f («fin»). La branch i tiene el mismo código que al principio del vídeo. La branch f tiene el mismo código que al final del vídeo. La rama master tiene el estado final del código que aparece en el curso.
+Las directorios están estructuradas para corresponder a los vídeos del curso. La convención de nomenclatura del directorio es c# donde c corresponde a capítulo y # al número del capítul. Por ejemplo, el directorio denominado c2_ corresponde al segundo capítulo.
+
 
 ## Instalación
 
-1. Para utilizar estos archivos de ejercicios, debes tener descargado lo siguiente:
-   - [software]
 
+1. Para utilizar estos archivos de ejercicios, debes tener descargado lo siguiente:
+   - Python
+   - Editor de código como VS Code o PyCharm
 2. Clona este repositorio en tu máquina local usando la Terminal (macOS) o CMD (Windows), o una herramienta GUI como SourceTree.
-3. [Instrucciones específicas del curso].
+3. Crea un ambiente virtual de Python, puedes hacerlo con virtualenv usando los comandos
+
+		pip install virtualenv
+		virtualenv <reemplazar por nombre del ambiente>
+
+4. Instala las librerías con el comando
+
+		pip install -r requirements.txt
+
+5. Accede a la carpeta del capítulo
+6. Corre la aplicación con el comando
+
+		uvicorn app.main:app --reload
+
 
 ### Docente
 
