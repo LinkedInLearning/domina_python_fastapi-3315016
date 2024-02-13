@@ -46,7 +46,7 @@ Las directorios están estructuradas para corresponder a los vídeos del curso. 
 Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ana-maria-pinto).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
-[lil-thumbnail-url]: https:
+[lil-course-url]: https://www.linkedin.com/learning/domina-python-fastapi/fastapi-y-python
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4D0DAQGquBF4YWdqag/learning-public-crop_675_1200/0/1707837311254?e=2147483647&v=beta&t=xddcFYBwhg8KjPZzrDT4Erp1ZcskLayXOS0Ti9jsbo4
 
 [1]: # (End of ES-Instruction ###############################################################################################)
